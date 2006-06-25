@@ -1,0 +1,14 @@
+---
+name: Acme-l33t
+version: 0.01
+author:
+  - 'Yanick Champoux <yanick@cpan.org>'
+abstract: a l33t interpreter
+license: perl
+build_requires:
+  Test::More: 0
+provides:
+  Acme::l33t:
+    file: lib/Acme/l33t.pm
+    version: 0.01
+generated_by: Module::Build version 0.2612
